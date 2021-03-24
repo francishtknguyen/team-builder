@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: url('https://images.pexels.com/photos/940035/pexels-photo-940035.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
+  height:100vh;
+}
+.form{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height:50%;
+  padding:10%;
+  
+}
+.formdiv{
+  background: grey;
+  opacity:90%;
+  border-radius: 8px;
+}
+.memberlist{
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* flex-direction: row; */
+  /* justify-content: space-around; */
+  flex-direction: column;
+  width: 50%;
+  opacity:90%;
+  
+}
+.member{
+  border: solid 1px black;
+  border-radius: 8px;
+  background: grey;
+  margin-bottom: 3px;
+  width:25rem;
+}

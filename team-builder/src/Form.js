@@ -29,11 +29,10 @@ export default function Form(props) {
             placeholder="First Name"
             maxLength="30"
           />
-        </label>
+        </label><br />
 
         <label>
           Email: 
-          {/* 🔥 STEP 4 - Make an input of type `email` or `text` for email. */}
           <input
             name="email"
             value={values.email}
@@ -41,11 +40,10 @@ export default function Form(props) {
             onChange={onChange}
             placeholder="type an email"
           />
-        </label>
+        </label><br />
 
         <label>
           Role: 
-          {/* 🔥 STEP 5 - Make dropdown for role. */}
           <select name="role" value={values.role} onChange={onChange}>
             <option value="">------select role------</option>
             <option value="instructor">Host/Hostess</option>

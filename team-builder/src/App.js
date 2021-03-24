@@ -39,11 +39,15 @@ function App() {
 
   return (
     <div className="App">
-
+      <div className="formdiv">
+      <h2>Member Maker</h2>
+      <Form values={formValues} update={updateForm} submit={submitForm}/>
+      </div>
+      <div className="memberlist">
       {members.map( (member) => {
         return <Member key={member.name} details={member} />
       })}
-      <Form values={formValues} update={updateForm} submit={submitForm}/>
+      </div>
 
      
      
